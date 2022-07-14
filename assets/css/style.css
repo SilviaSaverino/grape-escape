@@ -14,24 +14,35 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+/*h1, h2 {
     font-family: Barlow Semi Condensed, Helvetiva, sans-serif;
     letter-spacing: 2px;
     color: #515d5f;
-}
+}*/
 
 #logo {
     letter-spacing: 2.5px;
     font-size: 230%;
     float: left;
-    color: #4a9f10;
+    color: #f19f55;
 }
+
+ #site-hint {
+    font-family: Barlow Semi Condensed, Helvetica, sans-serif ;
+    color: #628131;
+    font-size: 35%;
+    margin-left: 65px;
+    margin-top: -35px;
+    
+}
+
 
 /*navigation links*/
 
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    color: #628131;
 }
 
 #menu, #logo {
@@ -52,11 +63,11 @@ h1, h2 {
 }    
 
 #menu a:hover {
-    border-bottom: 1px solid #4a9f10;
+    border-bottom: 2px solid #f19f55;
 }
 
 .active {
-    border-bottom: 1px solid #4a9f10;
+    border-bottom: 2px solid #f19f55;
 
 }
 
