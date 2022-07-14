@@ -11,3 +11,17 @@ body {
     font-family: Yanone Kaffeesatz, Helvetica, sans-serif;
     font-size: 300;    
 }
+
+/* headings */
+
+h1, h2 {
+    font-family: Barlow Semi Condensed, Helvetiva, sans-serif;
+    letter-spacing: 2px;
+    color: #4a9f10;
+}
+
+#logo {
+    letter-spacing: 2.5px;
+    font-size: 230%;
+    float: left;
+}
