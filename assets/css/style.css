@@ -12,7 +12,6 @@ body {
     color: #515d5f;
 }
 
-
 /*header and logo*/
 
 #logo {
@@ -75,4 +74,17 @@ body {
     height: 600px;
     width: 100%;
     object-fit: cover;
+}
+
+/*main content*/
+
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    background-color: yellow;
+    /*text*/
+    text-align: center;
+    font-size: 120%;
+    color: #f19f55;
 }
