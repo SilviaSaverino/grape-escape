@@ -12,19 +12,16 @@ body {
     color: #515d5f;
 }
 
-/* headings and logo */
 
-/*h1, h2 {
-    font-family: Barlow Semi Condensed, Helvetiva, sans-serif;
-    letter-spacing: 2px;
-    color: #515d5f;
-}*/
+/*header and logo*/
 
 #logo {
     letter-spacing: 2.5px;
     font-size: 230%;
     float: left;
     color: #f19f55;
+    padding-top: 30px;
+    margin-left: 20px;
 }
 
  #site-hint {
@@ -33,20 +30,21 @@ body {
     font-size: 35%;
     margin-left: 65px;
     margin-top: -35px;
-    
 }
 
 
 /*navigation links*/
 
 #menu {
-    font-size: 110%;
+    font-size: 150%;
     letter-spacing: 2px;
     color: #628131;
+    padding-top: 30px;
+    margin-right: 20px;
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 70px;
 }
 
 #menu li {
