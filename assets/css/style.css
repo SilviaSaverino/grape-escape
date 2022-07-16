@@ -82,6 +82,7 @@ h2 {
     height: 600px;
     width: 100%;
     object-fit: cover;
+    padding-bottom: 30px;
 }
 
 /*main content*/
@@ -98,7 +99,7 @@ h2 {
 /* grape escape ethos - About us */
 
 #about-us {
-    height: 600px;
+    height: 950px;
 }
 
 #left-about {
@@ -137,8 +138,35 @@ h2 {
     font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-align: center;
+    margin-top: 50px;
 }
 
 #about-us p {
     padding-top: 20px;
+}
+
+/*footer*/
+
+footer {
+    height: 150px;
+    margin-top: 30px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #628131;
+}
+
+.social-networks i:hover {
+    color:#f19f55;
 }
