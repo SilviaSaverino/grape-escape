@@ -12,6 +12,13 @@ body {
     color: #515d5f;
 }
 
+h1 {
+    color: #f19f55;
+    font-size:150%
+    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
 h2 {
     color: #628131;
     margin-bottom: 20px;
@@ -102,22 +109,20 @@ h2 {
 }
 
 #left-about {
-    padding top: 20px;
+    padding-top: 20px;
     width: 33%;
     float: left;
-    background-color: yellow;
 }
 
 #right-about {
-    padding top: 20px;
+    padding-top: 20px;
     width: 33%;
-    float: right;
-    background-color: blue;
+    float: right;    
 }
 
 #center-about {
-    padding top: 20px;
+    padding-top: 20px;
     width: 33%;
-    margin:0 auto;
-    background-color: pink;
+    margin: 0 auto;   
 }
+
