@@ -35,7 +35,7 @@ h2 {
     font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     color: #628131;
     font-size: 35%;
-    margin-left: 135px;
+    margin-left: 110px; /* this keeps on moving depending on the browser */
     margin-top: -35px;
 }
 
