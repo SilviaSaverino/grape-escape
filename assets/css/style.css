@@ -12,6 +12,14 @@ body {
     color: #515d5f;
 }
 
+h2 {
+    color: #628131;
+    margin-bottom: 20px;
+    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
+}
+
+
+
 /*header and logo*/
 
 #logo {
@@ -24,10 +32,10 @@ body {
 }
 
  #site-hint {
-    font-family: Barlow Semi Condensed, Helvetica, sans-serif ;
+    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     color: #628131;
     font-size: 35%;
-    margin-left: 65px;
+    margin-left: 135px;
     margin-top: -35px;
 }
 
@@ -82,9 +90,8 @@ body {
     margin: auto;
     width: 90%;
     padding: 20px;
-    background-color: yellow;
     /*text*/
     text-align: center;
     font-size: 120%;
-    color: #f19f55;
 }
+
