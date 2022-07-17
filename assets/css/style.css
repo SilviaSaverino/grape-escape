@@ -172,3 +172,17 @@ footer {
 }
 
 
+.form-section {
+    clear: left;
+    height: 800px;
+    background-color: red;
+}
+
+.get-started-form {
+    margin: 100px 10% 0 0;
+    background-color: pink;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
