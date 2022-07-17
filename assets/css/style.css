@@ -186,3 +186,13 @@ footer {
     left: 10%;
     padding: 30px;
 }
+
+.contact-us {
+    margin: 100px 10% 0 0;
+    background-color: rgb(226, 192, 255);
+    max-width: 400px;
+    float: right;
+    left: 10%;
+    padding: 30px;
+
+}
