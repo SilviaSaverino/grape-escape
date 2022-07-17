@@ -172,10 +172,12 @@ footer {
 }
 
 
+/*get started*/
+  
+
 .form-section {
     clear: left;
     height: 800px;
-    background-color: red;
 }
 
 .get-started-form {
@@ -185,6 +187,20 @@ footer {
     position: absolute;
     left: 10%;
     padding: 30px;
+    text-align: left;
+}
+
+.get-started-form h2 {
+    color:#f19f55;
+    font-size: 300%;
+    text-align: center;
+}
+
+.get-started-form div {
+    color: #628131;
+    font-size: 160%;
+    padding: 10px;
+    
 }
 
 .contact-us {
@@ -195,3 +211,4 @@ footer {
     left: 10%;
     padding: 30px;
 }
+
