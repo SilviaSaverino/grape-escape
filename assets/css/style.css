@@ -111,7 +111,7 @@ h2 {
 #right-about {
     padding-top: 20px;
     width: 33%;
-    float: right;    
+    float: right; 
 }
 
 #center-about {
@@ -123,13 +123,14 @@ h2 {
 /* About us images */
 
 .container {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-style: solid;
     border-color: #f19f55;
     border-width: 2px; 
     margin: 0 auto;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 #about-us h1 {
