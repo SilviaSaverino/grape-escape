@@ -181,6 +181,10 @@ footer {
 .form-section {
     clear: left;
     height: 800px;
+    background-image: url(../images/get_started_hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .get-started-form {
