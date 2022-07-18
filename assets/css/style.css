@@ -199,14 +199,14 @@ footer {
 
 .get-started-form h2 {
     color:#f19f55;
-    font-size: 300%;
+    font-size: 200%;
     text-align: center;
 }
 
 .get-started-form div {
     color: #628131;
-    font-size: 160%;
-    padding: 10px;
+    font-size: 130%;
+    padding: 5px;
     
 }
 
@@ -217,5 +217,25 @@ footer {
     float: right;
     left: 10%;
     padding: 30px;
+}
+
+input {
+    width: 55%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #f19f55;
+    cursor: pointer;
+  
+}
+
+input[type=submit] {
+    background-color: white;
+    border: 2px solid #628131;
+}
+
+input[type=submit]:hover {
+    background-color: #f19f55;
+    
 }
 
