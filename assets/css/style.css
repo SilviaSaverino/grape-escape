@@ -31,11 +31,11 @@ h2 {
     margin-left: 30px;
 }
 
- #site-hint {
+ #logo p {
     font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     color: #628131;
     font-size: 35%;
-    margin-left: 110px; /* this keeps on moving depending on the browser */
+    margin-left: 5.8rem; /* this keeps on moving depending on the browser */
     margin-top: -35px;
 }
 
@@ -92,17 +92,35 @@ h2 {
 .center {
     margin: auto;
     width: 90%;
-    padding: 20px;
+    padding: 10px;
     /*text*/
     text-align: center;
     font-size: 120%;
 }
 
+.center p {
+    text-align:center;
+    font-size: 120%;
+    padding: 20px;
+
+}
+
+
 /* grape escape ethos - About us */
 
 #about-us {
-    height: 950px;
+    height: 750px;
 }
+
+#about-us h1 {
+    color: #f19f55;
+    font-size: 50px;
+    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 #left-about {
     padding-top: 20px;
@@ -135,24 +153,20 @@ h2 {
     border-radius: 5%;
 }
 
-#about-us h1 {
-    color: #f19f55;
-    font-size: 250%;
-    font-family: Barlow Semi Condensed, Helvetica, sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-top: 50px;
+
+/*gallery page*/
+
+.center span {
+    font-size: 50px;
 }
 
-#about-us p {
-    padding-top: 20px;
-}
 
 /*footer*/
 
 footer {
     height: 150px;
     margin-top: 30px;
+    background-color: bisque;
 }
 
 .social-networks {
