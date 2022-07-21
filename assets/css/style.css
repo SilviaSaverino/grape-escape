@@ -24,23 +24,24 @@ h2 {
 header {
     height: 150px;
     background-color: bisque;
-    
+
 }
 
 #logo {
     letter-spacing: 2.5px;
-    font-size: 36.5px;
+    font-size: 2.30rem;
     float: left;
     color: #f19f55;
     padding-top: 30px;
     margin-left: 30px;
 }
 
- #logo p {
+#logo p {
     font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     color: #628131;
     font-size: 0.8rem;
-    margin-left: 7.4em;/* this keeps on moving depending on the browser */
+    margin-left: 7.4em;
+    /* this keeps on moving depending on the browser */
     margin-top: -35px;
 }
 
@@ -48,14 +49,15 @@ header {
 /*navigation links*/
 
 #menu {
-    font-size: 150%;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     color: #628131;
     padding-top: 30px;
     margin-right: 20px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 70px;
 }
 
@@ -70,7 +72,7 @@ header {
     text-decoration: none;
     color: inherit;
 
-}    
+}
 
 #menu a:hover {
     border-bottom: 2px solid #f19f55;
@@ -86,8 +88,9 @@ header {
 #hero-image {
     height: 600px;
     width: 95%;
+    position: relative;
     object-fit: cover;
-    border-color:#f19f55;
+    border-color: #f19f55;
     border-style: solid;
     margin: 30px;
 }
@@ -100,12 +103,12 @@ header {
     padding: 10px;
     /*text*/
     text-align: center;
-    font-size: 120%;
+    font-size: 1.2rem;
 }
 
 .center p {
-    text-align:center;
-    font-size: 120%;
+    text-align: center;
+    font-size: 1.2rem;
     padding: 20px;
 
 }
@@ -119,7 +122,7 @@ header {
 
 #about-us h1 {
     color: #f19f55;
-    font-size: 50px;
+    font-size: 3rem;
     font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -136,13 +139,13 @@ header {
 #right-about {
     padding-top: 20px;
     width: 33%;
-    float: right; 
+    float: right;
 }
 
 #center-about {
     padding-top: 20px;
     width: 33%;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 /* About us images */
@@ -152,7 +155,7 @@ header {
     height: 350px;
     border-style: solid;
     border-color: #f19f55;
-    border-width: 2px; 
+    border-width: 2px;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 5%;
@@ -164,7 +167,7 @@ header {
 
 .center span {
     font-size: 50px;
-    
+
 }
 
 
@@ -174,6 +177,7 @@ footer {
     height: 150px;
     margin-top: 30px;
     background-color: bisque;
+    
 }
 
 .justify {
@@ -184,7 +188,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -196,12 +200,12 @@ footer {
 }
 
 .social-networks i:hover {
-    color:#f19f55;
+    color: #f19f55;
 }
 
 
 /*get started*/
-  
+
 
 .form-section {
     clear: left;
@@ -233,7 +237,7 @@ footer {
 .get-started-form div {
     color: #628131;
     font-size: 130%;
-    padding: 5px;    
+    padding: 5px;
 }
 
 .get-started-form label {
@@ -250,7 +254,7 @@ footer {
     left: 10%;
     margin: 100px 130px 30px;
     padding: 30px;
-    
+
 }
 
 .contact-us p {
@@ -269,7 +273,7 @@ input {
     border: 2px solid #f19f55;
     cursor: pointer;
     font-size: 20px;
-  
+
 }
 
 input[type=submit] {
@@ -280,7 +284,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #f19f55;
-    
+
 }
 
 #message {
@@ -306,4 +310,64 @@ input[type=submit]:hover {
 
 .location p {
     font-size: 30px;
+}
+
+/*media queries*/
+
+/*for screen sizes from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-about,
+    #right-about,
+    .center {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
+/*for medium screen sizes from 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+
+    #about-us {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-about h2,
+    #right-about h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #left-about p,
+    #right-about p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
 }
