@@ -8,7 +8,6 @@
 
 body {
     font-family: Yanone Kaffeesatz, Helvetica, sans-serif;
-    font-size: 300;
     color: #515d5f;
 }
 
@@ -22,9 +21,15 @@ h2 {
 
 /*header and logo*/
 
+header {
+    height: 150px;
+    background-color: bisque;
+    
+}
+
 #logo {
     letter-spacing: 2.5px;
-    font-size: 230%;
+    font-size: 36.5px;
     float: left;
     color: #f19f55;
     padding-top: 30px;
@@ -34,8 +39,8 @@ h2 {
  #logo p {
     font-family: Barlow Semi Condensed, Helvetica, sans-serif;
     color: #628131;
-    font-size: 35%;
-    margin-left: 5.8rem; /* this keeps on moving depending on the browser */
+    font-size: 0.8rem;
+    margin-left: 7.4em;/* this keeps on moving depending on the browser */
     margin-top: -35px;
 }
 
@@ -84,7 +89,7 @@ h2 {
     object-fit: cover;
     border-color:#f19f55;
     border-style: solid;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 /*main content*/
@@ -156,8 +161,10 @@ h2 {
 
 /*gallery page*/
 
+
 .center span {
     font-size: 50px;
+    
 }
 
 
@@ -169,6 +176,10 @@ footer {
     background-color: bisque;
 }
 
+.justify {
+    justify-content: center;
+}
+
 .social-networks {
     text-align: center;
 }
@@ -178,9 +189,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 250%;
+    margin-top: 70px;
+    padding: 0 5%;
     color: #628131;
 }
 
